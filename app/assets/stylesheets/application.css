@@ -38,6 +38,12 @@ header {
   right: 100px;
 }
 
+.add_picture {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
 header .username {
   position: absolute;
   float: right;

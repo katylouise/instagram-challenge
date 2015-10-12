@@ -32,4 +32,5 @@ Still to do/ Wish list
 * Fix pluralize on likes.
 * Add Omniauth Login.
 * Unlike feature.
+* Double click to like.
 * Bonus if you can add filters!
