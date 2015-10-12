@@ -69,9 +69,9 @@ h4 {
 .img_container {
   position: relative;
   border: solid 1px #edeeee;
-  padding-top: 5px;
+  padding-top: 10px;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
   background: #ffffff;
 }
 
@@ -87,25 +87,38 @@ img {
 .img_info li {
   display: inline;
   position: absolute;
-  top: 2px;
-  font-size: 14px;
+  top: 4px;
 }
 
 .img_info .username {
   left: 35px;
+  color: #125688;
+  font-weight: bold;
 }
 
 .img_info .timestamp {
   right: 10px;
+  color: #818488;
 }
 
 .caption_container {
   position: relative;
 }
 
+.likes_container {
+  padding-left: 10px;
+  color: #4B4F54;
+  font-weight: bold;
+}
+
+.comments .username {
+  color: #125688;
+  font-weight: bold;
+}
+
 .delete, .edit {
   position: absolute;
-  top: 5px;
+  top: 2px;
   width: 16px;
   height: 16px;
 }
