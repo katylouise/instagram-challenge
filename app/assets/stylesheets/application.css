@@ -6,12 +6,18 @@ body {
 
 h1 {
   font-family: "Pacifico", cursive;
-  margin-left: 10px;
   display: inline-block;
+}
+
+.app-name {
+  margin-top: 0;
+  position: absolute;
+  left: 10px;
 }
 
 header {
   position: relative;
+  margin-top: -15px;
   width: 100%;
   background: #ffffff;
   border-bottom-color: solid 2px #edeeee;

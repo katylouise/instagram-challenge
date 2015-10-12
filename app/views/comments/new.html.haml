@@ -1,4 +1,5 @@
-= form_for [@picture, @comment] do |f|
-  %h1.thoughts= f.label :thoughts
-  = f.text_field :thoughts
-  = f.submit 'Leave Comment', class: 'comment-submit'
+%div.form
+  = form_for [@picture, @comment] do |f|
+    %h1.thoughts= f.label :thoughts
+    = f.text_field :thoughts
+    = f.submit 'Leave Comment', class: 'comment-submit'
