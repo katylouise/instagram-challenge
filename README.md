@@ -30,8 +30,6 @@ Still to do/ Wish list
 -----------------------
 * Users can only like each picture once.
 * Fix pluralize on likes.
-* Picture reload (maybe using AJAX) at the bottom.
 * Add Omniauth Login.
 * Unlike feature.
-* Comments form displayed in line.
 * Bonus if you can add filters!
