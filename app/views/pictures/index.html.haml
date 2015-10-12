@@ -12,7 +12,7 @@
           = link_to image_tag('/images/delete.png', :class => "delete"), picture_path(picture), class: 'delete-link', method: :delete
       %div.likes_container
         %span.likes_count= picture.likes.count
-        = 'like'.pluralize picture.likes.count
+        = 'like'.pluralize(picture.likes.count)
       - if picture.comments.any?
         %ul.comments
           - picture.comments.each do |comment|
