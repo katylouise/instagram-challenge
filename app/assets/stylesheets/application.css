@@ -68,6 +68,10 @@ a {
   text-decoration: none;
 }
 
+h1 a {
+  color: #000000;
+}
+
 form {
   padding-top: 30px
 }
