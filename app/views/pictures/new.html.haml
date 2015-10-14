@@ -1,5 +1,10 @@
-= form_for @picture do |f|
-  = f.file_field :image
-  = f.label :caption
-  = f.text_field :caption
-  = f.submit
+%div.form
+  %h1.form-title Add a new picture
+  = form_for @picture do |f|
+    %div.field
+      = f.file_field :image
+    %div.field
+      = f.label :caption
+      = f.text_field :caption
+    %div.actions
+      = f.submit
